@@ -6,6 +6,7 @@ all:
 test:
 	chmod +x hello
 	./helloTest
+	./data_types
 
 clean:
 	$(RM) hello helloTest
