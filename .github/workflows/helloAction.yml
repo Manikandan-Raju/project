@@ -20,7 +20,7 @@ jobs:
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
     - name: chmod
-      run: chmod +x build.sh
+      run: chmod +x ./configure
 
     - name: configure
       run: ./configure
