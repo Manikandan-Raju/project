@@ -7,14 +7,21 @@ on:
     branches: [ main ]
 
 jobs:
+  
   build-and-test:
 
     runs-on: ubuntu-latest
+    
+    
+
 
     steps:
     - uses: actions/checkout@v2
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
+    - name: chmod
+      run: chmod +x build.sh
+
     - name: configure
       run: ./configure
     - name: make
