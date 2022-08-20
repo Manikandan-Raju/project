@@ -1,0 +1,3 @@
+C:/workspaces/project/cpp/build/CMakeFiles/cppout.dir
+C:/workspaces/project/cpp/build/CMakeFiles/edit_cache.dir
+C:/workspaces/project/cpp/build/CMakeFiles/rebuild_cache.dir

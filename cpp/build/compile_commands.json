@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/workspaces/project/cpp/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/cppout.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\cppout.dir\\C_\\workspaces\\project\\cpp\\main.cpp.obj -c C:\\workspaces\\project\\cpp\\main.cpp",
+  "file": "C:/workspaces/project/cpp/main.cpp"
+},
+{
+  "directory": "C:/workspaces/project/cpp/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/cppout.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\cppout.dir\\C_\\workspaces\\project\\cpp\\src\\datatypes.cpp.obj -c C:\\workspaces\\project\\cpp\\src\\datatypes.cpp",
+  "file": "C:/workspaces/project/cpp/src/datatypes.cpp"
+},
+{
+  "directory": "C:/workspaces/project/cpp/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/cppout.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\cppout.dir\\C_\\workspaces\\project\\cpp\\src\\uniform_initialization.cpp.obj -c C:\\workspaces\\project\\cpp\\src\\uniform_initialization.cpp",
+  "file": "C:/workspaces/project/cpp/src/uniform_initialization.cpp"
+}
+]

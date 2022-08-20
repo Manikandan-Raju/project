@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/workspaces/project/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++2a -o CMakeFiles\\cppout.dir\\C_\\workspaces\\project\\cpp\\main.cpp.obj -c C:\\workspaces\\project\\cpp\\main.cpp",
+  "file": "C:/workspaces/project/cpp/main.cpp"
+}
+]
