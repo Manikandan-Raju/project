@@ -7,7 +7,7 @@ all:
 test:
 	chmod +x hello
 	chmod +x cppout
-	./cppout
+	cd build && ./cppout
 	./helloTest
 
 clean:
