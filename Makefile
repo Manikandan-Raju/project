@@ -1,6 +1,7 @@
 all:
 	cmake --version
 	cd build
+	ls
 	cmake -B build
 	make
 	cd ..
