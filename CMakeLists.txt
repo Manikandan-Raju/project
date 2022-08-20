@@ -6,3 +6,4 @@ project(cpp
         LANGUAGES CXX )
 add_executable(cppout cpp/main.cpp)
 target_compile_features(cppout PRIVATE cxx_std_20)
+target_include_directories(cppout PRIVATE cpp/include)
