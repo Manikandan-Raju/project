@@ -1,7 +1,7 @@
 all:
 	cmake --version
 	cd build
-	cmake -B .
+	cmake -B build
 	make
 	cd ..
 	g++ -std=c++17 hello.cpp -o hello
