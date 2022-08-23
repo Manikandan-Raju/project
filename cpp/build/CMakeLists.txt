@@ -8,4 +8,4 @@ add_executable(cppout ../main.cpp
                         ../src/datatypes.cpp
                         ../src/uniform_initialization.cpp)
 target_compile_features(cppout PRIVATE cxx_std_20)
-target_include_directories(cppout PRIVATE ../cpp/include)
+target_include_directories(cppout PRIVATE ../include)
