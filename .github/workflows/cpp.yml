@@ -12,19 +12,15 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    
-
-
     steps:
     - uses: actions/checkout@v2
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
     - name: chmod
-      run: chmod +x ./configure
-
+      run: cd cpp && chmod +x ./configure
     - name: configure
-      run: ./configure
+      run: cd cpp && ./configure
     - name: make
-      run: make
+      run: cd cpp && make
     - name: make test
-      run: make test
+      run: cd cpp && make test
