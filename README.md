@@ -1,2 +1,1 @@
-# GitHubActionsExample
-Simple example of using GitHubActions
+# This is my project
