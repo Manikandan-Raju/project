@@ -8,3 +8,6 @@ class test_regex(unittest.TestCase):
         
     def test_not_struct(self):
         self.assertIsNone(get_struct('struct State }'))
+
+    def test_fail(self):
+        self.assertTrue(False)
