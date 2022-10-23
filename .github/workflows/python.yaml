@@ -29,6 +29,6 @@ jobs:
       - name: run
         run: |
           python3 python/np_arr.py
-      - name: run
+      - name: pytest
         run: |
           cd python && pytest --cov=regex . --cov-report html
