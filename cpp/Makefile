@@ -1,7 +1,7 @@
 all:
 	cmake --version
-	cd ./build && cmake -B .
-	cd ./build && make
-	cd ./build && ls
+	cd ./cpp_build && cmake -B .
+	cd ./cpp_build && make
+	cd ./cpp_build && ls
 test:
-	cd ./build && ./cppout
+	cd ./cpp_build && ./cppout
