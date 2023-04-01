@@ -1,3 +1,4 @@
 bazel-cpp
 bazel-out
 bazel-bin
+bazel-testlogs
