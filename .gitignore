@@ -1,4 +1,3 @@
-build
 bazel-cpp
 bazel-out
 bazel-bin

@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/cpp/cpp_build",
+    "cmake.sourceDirectory": "C:/workspace/project/build",
     "files.associations": {
         "string": "cpp"
     }
