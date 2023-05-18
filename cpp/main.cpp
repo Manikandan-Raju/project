@@ -1,6 +1,6 @@
 #include <iostream>
-#include "include/datatypes.h"
-#include "include/uniform_initialization.h"
+#include "cpp/include/datatypes.h"
+#include "cpp/include/uniform_initialization.h"
 
 int main(){
     Datatypes data;

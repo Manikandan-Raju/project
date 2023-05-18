@@ -29,4 +29,4 @@ jobs:
 
     - name: Build
       run: |
-        cd cpp && "${GITHUB_WORKSPACE}/bin/bazel" build :main
+        "${GITHUB_WORKSPACE}/bin/bazel" build //cpp:main
