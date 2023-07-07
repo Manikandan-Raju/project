@@ -1,4 +1,4 @@
-from .regex import get_struct
+from regex import get_struct
 import unittest
 
 
