@@ -25,4 +25,8 @@ df.loc[df.index.size] = s
 print(df)
 
 print((df[2].diff(1) == -1) & (df[2] == 4) & (df[2].shift(1) == 5))
- 
+print((df[2].diff(1)))
+
+
+s = pd.DataFrame(np.random.randn(3,3))
+print(s)
