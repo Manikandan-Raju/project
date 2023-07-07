@@ -28,7 +28,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: run
         run: |
-          python3 python/np_arr.py
+          python3 python/numpy/np_arr.py
       - name: pytest
         run: |
           cd python && pytest --cov=regex . --cov-report html
