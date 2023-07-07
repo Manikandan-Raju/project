@@ -31,4 +31,4 @@ jobs:
           python3 python/numpy/np_arr.py
       - name: pytest
         run: |
-          cd python && pytest --cov=regex . --cov-report html
+          cd python && pytest --cov=regex ./regex --cov-report html
