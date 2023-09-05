@@ -1,17 +1,27 @@
 def capitalize(func):
     def inner(name):
-        print("I am decorated")
         name = name.capitalize()
         return func(name)
-    print("I am out")
+    return inner
+
+def greet(func):
+    def inner(name):
+        name = "Hi , I am " + name
+        return func(name)
+    return inner
+
+def add_stars(func):
+    def inner(name):
+        name = "***********\n" + name + "\n*************"
+        return func(name)
     return inner
 
 
 @capitalize
-def greet(name):
-    print("method ",name)
-    return "mkhkj"
+@greet
+@add_stars
+def show(name):
+    print(name)
 
 
-g = greet("mani")
-print('g',g)
+show("mani")

@@ -1,10 +1,6 @@
-def fibonacci_numbers(nums):
-    x, y = 0, 1
-    for _ in range(nums):
-        x, y = y, x+y
-        yield x
+# Program to display the Fibonacci sequence up to n-th term
 
-
-gen = fibonacci_numbers(100)
-for _ in gen:
-    print(next(gen))
+n1, n2 = 0, 1
+for _ in range(n:=20):
+    print(n1, end=" ")
+    n1,n2 = n2,n1+n2
